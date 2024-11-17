@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #1e3d58;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #f39c12;
+    color: white;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e67e22;
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Demo Section */
+.demo {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.demo-container {
+    margin-top: 30px;
+}
+
+.demo-input {
+    padding: 15px;
+    width: 60%;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.demo-btn {
+    padding: 15px 30px;
+    background-color: #1e3d58;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.demo-btn:hover {
+    background-color: #3498db;
+}
+
+/* Use Cases Section */
+.use-cases {
+    padding: 60px 
+}
